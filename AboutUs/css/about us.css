@@ -1,0 +1,107 @@
+
+
+@import url(footer.css);
+body{
+    background-color: #F6F5F5;
+
+}
+/* begining of the intro section */
+.intro{
+    margin-top: 7em;
+    margin-bottom: 4em;
+
+    }
+    
+.side_text{
+    width: 70%; 
+   float: right;
+  margin-top: 3em;
+  margin-right: 2em;
+  
+ 
+}
+    .who{
+        width: 100%;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 0.6em;
+        margin-left: 1.5em;
+    }
+    .aboutus{
+        width: 100%;
+        float: left;
+        font-size: 1.5em;
+        color: #252525;
+        margin-left: 0px;
+   }
+   .side_img{
+    
+    float: left;
+     width: 95%;
+     height: 100%;
+ 
+
+}
+/*--------------End of the Inrtro section ----------*/
+
+/* ----------- Begining of the About the chat me application -----*/
+
+.aboutchatme{
+  
+    margin-bottom: 4em;
+}
+.side_text2{
+    width: 70%;
+    float: left;
+    margin-left: 2em;
+    margin-top: 4em;
+    
+}
+.chatme_title{
+    
+    font-family:'Times New Roman', Times, serif;
+   margin-bottom: 1em;
+  margin-left: 5em;
+}
+.chatme_desc{
+
+    font-size: 1.6em;
+    
+}
+.chatmeimage{
+    float: right ;
+    width: 95%;
+    height: 100%;
+    background-color: whitesmoke;
+}   
+
+
+
+
+/*-----------Begining of the devlopers section ----------*/
+
+  
+.dev_images {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Adjust the value for different rounding */
+    object-fit: cover; /* Ensures image fills the container */
+        margin-right: 4em;
+        margin-bottom: 1em;
+        
+  }
+  
+#dev_images{
+  margin-left: 25%;
+  
+  
+}
+
+.dev_images:hover  {
+    /* opacity: 0.7; Reduce opacity on hover */
+    
+    transform: scale(1.1); /* Slightly zoom in on hover */
+  }
+
+
+
+/* dfss */
