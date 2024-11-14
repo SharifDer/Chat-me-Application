@@ -1,8 +1,10 @@
 Simple Web Chat Application
 This is a basic web-based chat application built using PHP, MySQL, HTML, CSS, and JavaScript. 
+
 The application allows users to communicate in real-time within a chat room, displaying messages as they are posted by others. 
 This README provides an overview of the setup and functionality.
 Features
+
 User Authentication: Users can create accounts and log in to participate in the chat.
 Real-Time Messaging: Messages are displayed in real-time, without needing to refresh the page.
 Message Storage: Chat history is stored in a MySQL database for persistence.
