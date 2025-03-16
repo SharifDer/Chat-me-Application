@@ -1,0 +1,145 @@
+.main-wrapper {
+    height: 100%;
+}
+.account-page {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f7f7f7;
+    padding: 0 10px;
+}
+.account-page::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(68, 172, 178, 0.7);
+}
+.account-title {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0 0 40px;
+    text-align: center;
+}
+.account-box {
+    
+    margin: 0 auto;
+    width: 400px; 
+    border:1px solid #d5dBe1;
+    background-color:#fff;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.account-wrapper {
+    padding: 30px;
+}
+.account-logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.account-box .form-group {
+    margin-bottom: 25px;
+}
+.account-box .account-btn {
+    background: #323232;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 10px 26px;
+    border: 0;
+}
+.account-box .account-btn:hover, .account-box .account-btn:focus {
+    border: 0;
+    opacity: 0.8;
+}
+.account-box a {
+    color: #323232;
+    font-size: 16px;
+}
+.account-box a:hover {
+    color: #2FDF84;
+}
+.account-box .form-control {
+    border: 1px solid #d5dBe1;
+    height: 50px;
+}
+.account-box label {
+    color: #7f8fa4;
+    font-size: 16px;
+    font-weight: normal;
+}
+.account-logo img {
+    width: 190px;
+}
+.main-content {
+    margin-left: 225px;
+    padding: 30px;
+    background-color: #eaeef3;
+}
+.content-wrapper {
+    margin-top: 80px;
+}
+.page-header .breadcrumb li+li:before {
+    padding: 0px 10px ;
+    color: #373D3F;
+    content: "\f101";
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+}
+.page-header .breadcrumb {
+    border-radius: 4.25rem !important;
+    font-size: 12px;
+    background: none;
+}
+.page-header h5 {
+    font-weight: 700;
+    color: #333; 
+    font-size: 22px;
+}
+
+.page-header .breadcrumb-item a { 
+    color: #373D3F;
+}
+.page-header .breadcrumb-item span { 
+    color: #8944D7; 
+    text-decoration: underline;
+}
+.page-header .breadcrumb-item a i {
+    padding-right: 20px;
+}
+.page-header a,.profile-content a { 
+    color: #373D3F;
+}
+.page-content { 
+    color: #333;
+}
+.page-content h4 { 
+    text-transform: capitalize; 
+    font-weight: 600; 
+    display: inline-block;
+}
+.card-header .dropdown-menu .show { 
+    top: -37px; 
+    left: -60px;
+}
+.page-content .card-header { 
+    border-radius: 2px 2px 0 0; 
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+}
+.pae-content .card-body { 
+    background-color: #f7f7f7;
+}
+.model-open .header,.model-open .sidebar { 
+    z-index: 0;
+}
