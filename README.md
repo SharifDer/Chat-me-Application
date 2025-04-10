@@ -1,3 +1,7 @@
+
+![Login screenshot](view/index.png)
+
+
 # Simple Web Chat Application
 
 This is a basic web-based chat application built using **PHP, MySQL, HTML, CSS, and JavaScript**.
@@ -14,7 +18,6 @@ The application allows users to communicate in real-time within a chat room, dis
 ## Usage
 
 1. **Sign Up:** New users can register to create an account.
-![Login screenshot](view/login.png)
 3. **Log In:** Existing users can log in to access the chat room.
 4. **Chat:** Users can send messages, which appear in real-time for all active users.
 
