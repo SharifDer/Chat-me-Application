@@ -11,8 +11,14 @@ The application allows users to communicate in real-time within a chat room, dis
 - **Message Storage:** Chat history is stored in a MySQL database for persistence.
 - **Simple UI:** The front end is styled using CSS and provides a clean, user-friendly interface.
 
-## Technologies Used
+## Usage
 
+1. **Sign Up:** New users can register to create an account.
+2. **Log In:** Existing users can log in to access the chat room.
+3. **Chat:** Users can send messages, which appear in real-time for all active users.
+
+   
+## Technologies Used
 - **PHP:** Backend logic, user authentication, and database interaction.
 - **MySQL:** Database for storing user credentials and chat messages.
 - **HTML & CSS:** Frontend structure and styling.
@@ -25,10 +31,3 @@ The application allows users to communicate in real-time within a chat room, dis
    - Create a MySQL database for the project.
    - Import the `chatapp.sql` file provided in the project to set up the necessary tables (e.g., `users` and `messages`).
 3. **Run the Project:** Start a local PHP server (e.g., using XAMPP or WAMP) and access the application via your web browser.
-
-## Usage
-
-1. **Sign Up:** New users can register to create an account.
-2. **Log In:** Existing users can log in to access the chat room.
-3. **Chat:** Users can send messages, which appear in real-time for all active users.
-
