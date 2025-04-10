@@ -14,10 +14,11 @@ The application allows users to communicate in real-time within a chat room, dis
 ## Usage
 
 1. **Sign Up:** New users can register to create an account.
-2. **Log In:** Existing users can log in to access the chat room.
-3. **Chat:** Users can send messages, which appear in real-time for all active users.
+![Login screenshot](view/login.png)
+3. **Log In:** Existing users can log in to access the chat room.
+4. **Chat:** Users can send messages, which appear in real-time for all active users.
 
-   
+
 ## Technologies Used
 - **PHP:** Backend logic, user authentication, and database interaction.
 - **MySQL:** Database for storing user credentials and chat messages.
