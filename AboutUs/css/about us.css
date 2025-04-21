@@ -1,107 +1,263 @@
-
-
-@import url(footer.css);
-body{
-    background-color: #F6F5F5;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
-/* begining of the intro section */
-.intro{
-    margin-top: 7em;
-    margin-bottom: 4em;
 
-    }
-    
-.side_text{
-    width: 70%; 
-   float: right;
-  margin-top: 3em;
-  margin-right: 2em;
-  
- 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 20px;
 }
-    .who{
-        width: 100%;
-       font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-bottom: 0.6em;
-        margin-left: 1.5em;
-    }
-    .aboutus{
-        width: 100%;
-        float: left;
-        font-size: 1.5em;
-        color: #252525;
-        margin-left: 0px;
-   }
-   .side_img{
-    
-    float: left;
-     width: 95%;
-     height: 100%;
- 
 
+.wrapper {
+    background: #fff;
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 20px 0;
 }
-/*--------------End of the Inrtro section ----------*/
 
-/* ----------- Begining of the About the chat me application -----*/
-
-.aboutchatme{
-  
-    margin-bottom: 4em;
+.wrapper:hover {
+    transform: translateY(-5px);
 }
-.side_text2{
-    width: 70%;
-    float: left;
-    margin-left: 2em;
-    margin-top: 4em;
-    
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    padding: 15px 30px;
 }
-.chatme_title{
-    
-    font-family:'Times New Roman', Times, serif;
-   margin-bottom: 1em;
-  margin-left: 5em;
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
 }
-.chatme_desc{
 
-    font-size: 1.6em;
-    
+.nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: all 0.3s ease;
 }
-.chatmeimage{
-    float: right ;
-    width: 95%;
-    height: 100%;
-    background-color: whitesmoke;
-}   
 
+.nav-link:hover, .nav-link.active {
+    color: white !important;
+    transform: translateY(-2px);
+}
 
+/* Form Container */
+.form {
+    padding: 30px;
+}
 
+/* Welcome/Text Boxes */
+.welcome {
+    color: #5a5a5a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: #f8f9ff;
+    border: 1px solid #e0e6ff;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    font-size: 16px;
+}
 
-/*-----------Begining of the devlopers section ----------*/
+.welcome p {
+    margin: 0;
+}
 
-  
+.welcome b, .welcome em {
+    color: #6a11cb;
+    font-weight: 600;
+}
+
+/* Headers */
+.who, .chatme_title h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.who::after, .chatme_title h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    border-radius: 3px;
+}
+
+/* Images */
+.side_img, .chatmeimage {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.side_img:hover, .chatmeimage:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Developers Section */
+#dev_images {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .dev_images {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* Adjust the value for different rounding */
-    object-fit: cover; /* Ensures image fills the container */
-        margin-right: 4em;
-        margin-bottom: 1em;
-        
-  }
-  
-#dev_images{
-  margin-left: 25%;
-  
-  
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
 
-.dev_images:hover  {
-    /* opacity: 0.7; Reduce opacity on hover */
+.dev_images:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Elements */
+.form-container {
+    background: #f8f9ff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e6ff;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+
+.form-field {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e0e6ff;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-field:focus {
+    outline: none;
+    border-color: #6a11cb;
+    box-shadow: 0 0 0 3px rgba(106, 17, 203, 0.1);
+}
+
+/* Buttons */
+.link-style a, .send-btn {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(106, 17, 203, 0.2);
+    border: none;
+    width: 100%;
+}
+
+.link-style a:hover, .send-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106, 17, 203, 0.3);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #e0e6ff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .who, .chatme_title h2 {
+        font-size: 1.8rem;
+    }
     
-    transform: scale(1.1); /* Slightly zoom in on hover */
-  }
+    .dev_images {
+        width: 150px;
+        height: 150px;
+    }
+}
 
+@media (max-width: 768px) {
+    .wrapper {
+        margin: 10px;
+    }
+    
+    .form {
+        padding: 20px;
+    }
+    
+    #dev_images {
+        gap: 20px;
+    }
+    
+    .dev_images {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .who, .chatme_title h2 {
+        font-size: 1.6rem;
+    }
+}
 
-
-/* dfss */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    
+    .who, .chatme_title h2 {
+        font-size: 1.4rem;
+    }
+    
+    .welcome {
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+    .form-field {
+        padding: 10px 12px;
+    }
+}
