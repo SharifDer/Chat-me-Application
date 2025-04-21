@@ -3,145 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css"> 
-  <link rel="stylesheet" href="css/about us.css">
-  <link rel="shortcut icon" type="image/x-icon" href="images/ChatMe.png">
-  <title>ChatMe</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/about us.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/ChatMe.png">
+    <title>ChatMe - About Us</title>
 </head>
-<body >
-  
-  <!-- <h1>hey there </h1> -->
-  <!-- <a href="#images">images</a> -->
- <!-------------Navbar section-------------->
-  <nav class="navbar navbar-expand-lg  " style="background-color: #2f2626;" >
-    <div class="container-fluid">
-      <a class="navbar-brand text-white text-light fw-bold " href="../index.html">ChatMe</a>
-      <button class="navbar-toggler " style=" background-color: #F0F0F0;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-          <li class="nav-item">
-            <a class="nav-link active text-white fw-bold "  aria-current="page" href="#aboutchatme">
-              About <i>ChatMe</i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-" href="#services">contact us</a>
-          </li>
-          <li class="nav-item" >
-            <a  class="nav-link text-white" href="https://www1.payoneer.com/ar/"> Support us  </a>
-          </li>
-
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- About devlopers section ------- -->
-  <div class="intro" > 
-    <div class="row" > 
-    <div class="col-md-6" >
-      <div class="side_text" >
-     <h1  class="who">Who are we ?</h1>  
-     <p class="aboutus">  
-   three developer students driven by a shared passion:
-    leaving our unique mark on the digital landscape ,
-     particularly through the exciting possibilities of AI.
-      We believe technology has the power to transform the way we connect,
-       create, and experience the world, and we're excited to develop solutions that make a positive impact.
-     </p>
-    </div>
-  </div>
-  
-    <div class="col-md-6 " >
-      <img class="side_img" src="images/programmer1.png" alt="">
-    </div>
-    </div>
-
-     
-</div>
- <!-- Devlopers image section -->
- <div  id="dev_images" >
- 
-  
-  <img src="images/sharif.png" class="dev_images " alt="..." title="sharif" >
-  <img src="images/Aladdinn.jpg" class="dev_images" alt="">
-  <img src="images/Ayoub.jpg" class="dev_images" alt="">
-</div>
-
-<!-- ------------ about chat me sectin --------- -->
-<div class="aboutchatme" id="aboutchatme"  >  
-<div class="row" > 
-  <div class="col-md-6" > 
-  <img  class="side_img chatmeimage" src="images/chatme.jpg" alt="">
-
-  </div>
-  <div class="col-md-6  " >
-    <div class="side_text2" > 
-    <div class="chatme_title" > 
-      <h2> About <em>ChatMe</em></h2>
-    </div>
-      <p class="chatme_desc" > <em>ChatMe</em> is a Free Open Source text appliaction.
-        
-        It uses the email to create an account After that 
-        You can contact with people from all around the wrold.
-        In addition, You can search for users using thier name. 
-
-        
-      
-      </p>
-    
-  </div>
-  </div>
-</div>
-</div>
-
-
- <!---------------Footer contact us section --------- -->
-<footer> 
- <div class="container"  id="services">
-
-  <div class="text-center" >
-    <br>
-    <h2  > Let's collaborate  </h2>
-    <div  >
-    
-     <p class="work " > Our passionate team eager to hear from you about your project to make it a reality. Contact us Now, Let's work together.</p> </div>
-  </div>
-  <div class="content"  style="justify-content: center">
-
-    <div class="col-md-5">
-    <!----------- The contact us form  ------------->
-      <form method="post"  action="mailto:sharifderhem@gmail.com"  enctype="text/plain">
-        <div class="form-container">
-          <h2>Send Message</h2>
-          <div class="form-row">
-            <label>Full Name</label>
-            <div>
-              <input type="text" class="form-field">
+<body>
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">ChatMe</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#aboutchatme">About ChatMe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www1.payoneer.com/ar/">Support Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="form-row">
-            <label>Email</label>
-            <div>
-              <input type="email" class="form-field"  >
+        </nav>
+
+        <!-- Main Content -->
+        <div class="form about-section">
+            <!-- Intro Section -->
+            <div class="intro">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="side_text">
+                            <h1 class="who">Who Are We?</h1>
+                            <div class="welcome">
+                                <p class="aboutus">
+                                    Three developer students driven by a shared passion: leaving our unique mark on the digital landscape, particularly through the exciting possibilities of AI. We believe technology has the power to transform the way we connect, create, and experience the world.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="side_img" src="images/programmer1.png" alt="Developers">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="form-row">
-            <label>Type your message...</label>
-            <div>
-              <input type="text" class="form-field">
+
+            <!-- Developers Section -->
+            <div id="dev_images" class="text-center my-5">
+                <img src="images/sharif.png" class="dev_images" alt="Sharif" title="sharif">
+                <img src="images/Aladdinn.jpg" class="dev_images" alt="Aladdin">
+                <img src="images/Ayoub.jpg" class="dev_images" alt="Ayoub">
             </div>
-          </div>
-          <input type="submit" class="send-btn" value="Send">
+
+            <!-- About ChatMe Section -->
+            <div class="aboutchatme" id="aboutchatme">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-2">
+                        <div class="side_text2">
+                            <div class="chatme_title">
+                                <h2>About <em>ChatMe</em></h2>
+                            </div>
+                            <div class="welcome">
+                                <p class="chatme_desc">
+                                    <em>ChatMe</em> is a Free Open Source text application. It uses email to create an account. After that, you can contact people from all around the world. In addition, you can search for users using their name.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <img class="side_img chatmeimage" src="images/chatme.jpg" alt="ChatMe">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <footer>
+                <div class="container" id="services">
+                    <div class="text-center mb-4">
+                        <h2>Let's Collaborate</h2>
+                        <div class="welcome">
+                            <p class="work">
+                                Our passionate team eager to hear from you about your project to make it a reality. Contact us Now, Let's work together.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content justify-content-center">
+                        <div class="col-md-8 mx-auto">
+                            <form method="post" action="mailto:sharifderhem@gmail.com" enctype="text/plain">
+                                <div class="form-container">
+                                    <h2 class="text-center mb-4">Send Message</h2>
+                                    <div class="field">
+                                        <label>Full Name</label>
+                                        <input type="text" class="form-field">
+                                    </div>
+                                    <div class="field">
+                                        <label>Email</label>
+                                        <input type="email" class="form-field">
+                                    </div>
+                                    <div class="field">
+                                        <label>Type your message...</label>
+                                        <textarea class="form-field" rows="4"></textarea>
+                                    </div>
+                                    <div class="field link-style">
+                                        <input type="submit" class="send-btn" value="Send Message">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-      </form>
     </div>
-  </div>
-</div>
-</footer>
- <script src="css/bootstrap.min.js" ></script> 
+
+    <script src="css/bootstrap.min.js"></script>
 </body>
 </html>
